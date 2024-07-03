@@ -13,5 +13,5 @@ One exception is that the selected frames for each camera were misaligned with t
 ### Lots of issues here, mainly with CUDA.
 Fun fact nvidia drivers are apparently the #1 way to break ubuntu 18.04
 1. Follow this guide to get nvidia and cuda drivers squared away. Whatever you think is the correct way to do it is probably wrong :). If the guide doesn't work then, well, it's between you, God, and a new linux distro.
-2. Use the yaml file in this directory, idk why this one works and the other three that you can find tucked away don't, but it does. You will still have the pip install -e all the relevant items (DLC, pyvm, pylib)
+2. Use the [yaml file](https://github.com/Danhan71/hand_track_shid/blob/18d60b0771d00f87dea14a5138a94c5f11fc9c13/test.yaml) in this directory, idk why this one works and the other three that you can find tucked away don't, but it does. You will still have the pip install -e all the relevant items (DLC, pyvm, pylib)
 
