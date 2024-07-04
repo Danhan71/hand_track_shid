@@ -27,7 +27,7 @@ Might also need to install pytorch
 ```bash
 mamba install pytorch
 ```
-##Train DLC Models
+## Train DLC Models
 Here got a bit annoying. If the screen shows a bunch of errors and then says "Starting Training" but nothing else after that, it has not, in fact, started training and you must address those those errors. For me the issue was that pytorch was not installed and also that python version was out of date. CUDA REQUIRES PYTHON VERSION >3.9!!!!!!!. To update python version just do a
 ```bash
 conda install python=3.9
