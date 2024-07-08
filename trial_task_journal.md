@@ -33,6 +33,6 @@ Here got a bit annoying. If the screen shows a bunch of errors and then says "St
 conda install python=3.9
 ```
 After doing this you will need to go and re add all the custom libraries (dlc, pyvm, and pylib).
-If, after doing this you still have issues and see an error like ```Value Error: ‘a’ must be greater than 0 unless no samples are taken``` this probabyl means that your labelling did not work for some of the videos, and thus there is no training data avaliable.
+If, after doing this you still have issues and see an error like ```Value Error: ‘a’ must be greater than 0 unless no samples are taken``` this probably means that your labelling did not work for some of the videos, and thus there is no training data avaliable.
 
 
