@@ -29,8 +29,11 @@ mamba install pytorch
 ```
 ## Train DLC Models
 Here got a bit annoying. If the screen shows a bunch of errors and then says "Starting Training" but nothing else after that, it has not, in fact, started training and you must address those those errors. For me the issue was that pytorch was not installed and also that python version was out of date. CUDA REQUIRES PYTHON VERSION >3.9!!!!!!!. To update python version just do a
+
+UPDAE ON THIS. On second run through something broke, so I had to do another python upgrade to 3.10.14 (the module doing the frame labelling GUI would not work for no reason. 3.10.13 did not work either. IDK man. You might need to rebuild the env from scratch in order to make 3.10.14 work.
 ```bash
-conda install python=3.9
+# conda install python=3.9
+conda install python=3.10.14
 ```
 After doing this you will need to go and re add all the custom libraries (dlc, pyvm, and pylib).
 If, after doing this you still have issues and see an error like ```Value Error: ‘a’ must be greater than 0 unless no samples are taken``` this probably means that your labelling did not work for some of the videos, and thus there is no training data avaliable.
